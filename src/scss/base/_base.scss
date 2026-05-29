@@ -1,0 +1,7 @@
+@use '../abstracts' as abstracts;
+
+:root {
+  --font-family-sans-serif: system-ui, sans-serif;
+  /* stylelint-disable-next-line value-keyword-case */
+  --font-family-serif: Georgia, Cambria, 'Times New Roman', serif;
+}
