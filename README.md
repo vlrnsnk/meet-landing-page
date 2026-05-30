@@ -1,68 +1,9 @@
-# Frontend Mentor - {{PROJECT_NAME}} solution
+# Frontend Mentor - Meet landing page solution
 
-This is a solution to the [{{CHALLENGE_NAME}} on Frontend Mentor]({{CHALLENGE_URL}}).
+This is a solution to the [Meet landing page on Frontend Mentor](https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR).
 Frontend Mentor challenges help improve frontend skills by building realistic UI components.
 
 ## 🚀 Using this template
-
-### 1. Create a new project
-
-Click **"Use this template"** on GitHub and create a new repository.
-
-### 2. Enable GitHub Pages deploy
-
-After creating repo: Settings → Pages → Source → GitHub Actions.
-
-### 3. Update project metadata
-
-#### In `package.json`
-
-```json
-"name": "{{PROJECT_NAME}}"
-```
-
-### 4. Update Vite base path (for GitHub Pages)
-
-```js
-base: "/{{REPO_NAME}}/",
-```
-
-### 5. Update README
-
-Replace all placeholders:
-
-- {{PROJECT_NAME}}
-- {{CHALLENGE_NAME}}
-- {{CHALLENGE_URL}}
-- {{SOLUTION_URL}}
-- {{LIVE_URL}}
-
-### 6. Update links
-
-- Solution URL: {{SOLUTION_URL}}
-- Live Site URL: {{LIVE_URL}}
-
-### 7. Update dependencies (optional)
-
-```bash
-npx npm-check-updates -u
-```
-
-### 8. Update docs
-
-Put design files and style guide in docs directory.
-
-### 9. Update favicons
-
-Upload favicons to public directory (realfavicongenerator.net is recommended).
-
-### 10. Upload assets
-
-Put fonts to `src/fonts/` and content images to `src/images`.
-
-### 11. Update index.html
-
-Change text content and meta tags values.
 
 ### 12. Add preview images
 
@@ -96,8 +37,8 @@ Upload `./preview.png` (894xHEIGHT size) and create `public/og-image.png` (1200x
 
 Users should be able to:
 
-- {{CHALLENGE_REQUIREMENT_1}}
-- {{CHALLENGE_REQUIREMENT_2}}
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
 ### Preview
 
@@ -111,8 +52,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo]({{SOLUTION_URL}})
-- Live Site URL: [Live Site]({{LIVE_URL}})
+- Solution URL: [GitHub Repo](https://github.com/vlrnsnk/meet-landing-page)
+- Live Site URL: [Live Site](https://vlrnsnk.github.io/meet-landing-page)
 
 ## Features
 
