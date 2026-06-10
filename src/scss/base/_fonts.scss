@@ -1,13 +1,16 @@
 /* Fonts */
 
-$fonts: ();
+$fonts-red-hat-display: (
+  500: 'Red-Hat-Display-Medium',
+  900: 'Red-Hat-Display-Bold',
+);
 
-@each $weight, $file in $fonts {
+@each $weight, $file in $fonts-red-hat-display {
   @font-face {
-    font-family: sans-serif;
+    font-family: 'Red Hat Display';
     font-weight: $weight;
     font-style: normal;
-    src: url('../../assets/fonts/#{$file}.woff2') format('woff2');
+    src: url('../../assets/fonts/Red-Hat-Display/#{$file}.woff2') format('woff2');
     font-display: swap;
   }
 }
