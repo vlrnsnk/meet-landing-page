@@ -4,4 +4,24 @@
   --font-family-sans-serif: system-ui, sans-serif;
   /* stylelint-disable-next-line value-keyword-case */
   --font-family-serif: Georgia, Cambria, 'Times New Roman', serif;
+  --font-size-base: 100%;
+  --color-cyan-600: #{abstracts.$color-cyan-600};
+  --color-cyan-300: #{abstracts.$color-cyan-300};
+  --color-purple-600: #{abstracts.$color-purple-600};
+  --color-purple-300: #{abstracts.$color-purple-300};
+  --color-slate-900: #{abstracts.$color-slate-900};
+  --color-slate-600: #{abstracts.$color-slate-600};
+  --color-slate-300: #{abstracts.$color-slate-300};
+  --color-white: #{abstracts.$color-white};
+  --spacing-1400: #{abstracts.$spacing-1400};
+  --spacing-1000: #{abstracts.$spacing-1000};
+  --spacing-900: #{abstracts.$spacing-900};
+  --spacing-800: #{abstracts.$spacing-800};
+  --spacing-700: #{abstracts.$spacing-700};
+  --spacing-500: #{abstracts.$spacing-500};
+  --spacing-400: #{abstracts.$spacing-400};
+  --spacing-300: #{abstracts.$spacing-300};
+  --spacing-200: #{abstracts.$spacing-200};
+  --spacing-100: #{abstracts.$spacing-100};
+  --spacing-50: #{abstracts.$spacing-50};
 }
