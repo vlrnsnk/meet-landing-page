@@ -1,5 +1,31 @@
 /* Colors */
 
+/* Cyan Scale */
+$color-cyan-600: hsl(192deg 37% 48%);
+$color-cyan-300: hsl(192deg 90% 77%);
+
+/* Purple Scale */
+$color-purple-600: hsl(268deg 34% 54%);
+$color-purple-300: hsl(268deg 100% 86%);
+
+/* Slate Scale */
+$color-slate-900: hsl(240deg 21% 20%);
+$color-slate-600: hsl(240deg 10% 57%);
+$color-slate-300: hsl(240deg 18% 85%);
+$color-white: hsl(0deg 0% 98%);
+
 /* Spacing */
+$spacing-1400: 7rem; /* 112px */
+$spacing-1000: 5rem; /* 80px */
+$spacing-900: 4.5rem; /* 72px */
+$spacing-800: 4rem; /* 64px */
+$spacing-700: 3.5rem; /* 56px */
+$spacing-500: 2.5rem; /* 40px */
+$spacing-400: 2rem; /* 32px */
+$spacing-300: 1.5rem; /* 24px */
+$spacing-200: 1rem; /* 16px */
+$spacing-100: 0.5rem; /* 8px */
+$spacing-50: 0.25rem; /* 4px */
 
 /* Font Family */
+$font-red-hat-display: 'Red Hat Display', sans-serif;
