@@ -18,64 +18,73 @@
     <meta property="og:url" content="https://vlrnsnk.github.io/meet-landing-page" />
     <meta name="twitter:card" content="summary_large_image" />
   </head>
-  <body>
-    <header>
-      <a href="/"><img src="/src/assets/images/logo.svg" alt="Meet" /></a>
+  <body class="page">
+    <header class="page__header">
+      <a class="page__logo logo" href="/"
+        ><img class="logo__image" src="/src/assets/images/logo.svg" alt="Meet"
+      /></a>
     </header>
-    <main>
-      <section>
-        <img src="/src/assets/images/tablet/image-hero.png" alt="" />
-        <h1>Group Chat for Everyone</h1>
-        <p>
+    <main class="page__content">
+      <section class="hero">
+        <img class="hero__image" src="/src/assets/images/tablet/image-hero.png" alt="" />
+        <h1 class="hero__title">Group Chat for Everyone</h1>
+        <p class="hero__description">
           Meet makes it easy to connect with others face-to-face virtually and collaborate across
           any device.
         </p>
-        <div><a href="#" download>Download v1.3</a> <a href="#">What is it?</a></div>
-        <div aria-hidden="true">01</div>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#" download>Download v1.3</a>
+          <a class="button button--secondary" href="#">What is it?</a>
+        </div>
+        <div class="step-marker" aria-hidden="true">01</div>
       </section>
-      <section>
-        <ul>
-          <li>
+      <section class="features">
+        <ul class="features__gallery gallery">
+          <li class="gallery__item">
             <img
+              class="gallery__image"
               src="/src/assets/images/desktop/image-woman-in-videocall.jpg"
               alt="Woman smiling during a video call on a laptop"
             />
           </li>
-          <li>
+          <li class="gallery__item">
             <img
+              class="gallery__image"
               src="/src/assets/images/desktop/image-women-videochatting.jpg"
               alt="Three women having a video chat on a smartphone"
             />
           </li>
-          <li>
+          <li class="gallery__item">
             <img
+              class="gallery__image"
               src="/src/assets/images/desktop/image-men-in-meeting.jpg"
               alt="Man in a meeting looking at a screen"
             />
           </li>
-          <li>
+          <li class="gallery__item">
             <img
+              class="gallery__image"
               src="/src/assets/images/desktop/image-man-texting.jpg"
               alt="Man smiling while texting on his phone"
             />
           </li>
         </ul>
-        <p>Built for modern use</p>
-        <h2>Smarter meetings, all in one place</h2>
-        <p>
+        <p class="features__subtitle">Built for modern use</p>
+        <h2 class="features__title">Smarter meetings, all in one place</h2>
+        <p class="features__description">
           Send messages, share files, show your screen, and record your meetings — all in one
           workspace. Control who can join with invite-only team access, data encryption, and data
           export.
         </p>
-        <div aria-hidden="true">02</div>
+        <div class="step-marker" aria-hidden="true">02</div>
       </section>
     </main>
-    <footer>
-      <h2>Experience more together</h2>
-      <p>
+    <footer class="page__footer footer">
+      <h2 class="footer__title">Experience more together</h2>
+      <p class="footer__description">
         Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
       </p>
-      <a href="#" download>Download v1.3</a>
+      <a class="button button--primary" href="#" download>Download v1.3</a>
     </footer>
   </body>
 </html>
