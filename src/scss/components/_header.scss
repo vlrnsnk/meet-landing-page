@@ -1,0 +1,9 @@
+.header {
+  padding-block-start: 3rem;
+
+  &__logo {
+    display: block;
+    max-width: fit-content;
+    margin-inline: auto;
+  }
+}
