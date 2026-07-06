@@ -54,18 +54,18 @@
     "*.html": "html-validate"
   },
   "devDependencies": {
-    "autoprefixer": "^10.5.1",
+    "autoprefixer": "^10.5.2",
     "editorconfig-cli": "^1.0.0",
-    "html-validate": "^11.5.3",
+    "html-validate": "^11.5.5",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.8",
-    "postcss": "^8.5.15",
-    "prettier": "3.8.4",
+    "postcss": "^8.5.16",
+    "prettier": "3.9.4",
     "sass": "^1.101.0",
-    "stylelint": "^17.13.0",
+    "stylelint": "^17.14.0",
     "stylelint-config-standard-scss": "^17.0.0",
     "stylelint-order": "^8.1.1",
     "stylelint-scss": "^7.2.0",
-    "vite": "^8.1.0"
+    "vite": "^8.1.3"
   }
 }
