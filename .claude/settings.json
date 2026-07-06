@@ -1,0 +1,6 @@
+{
+  "permissions": {
+    "*:shell*:dangerouslyDisableSandbox": false,
+    "*:npm*:allowList": ["--save-exact"]
+  }
+}
