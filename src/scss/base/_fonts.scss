@@ -2,7 +2,7 @@
 
 $fonts-red-hat-display: (
   500: 'Red-Hat-Display-Medium',
-  900: 'Red-Hat-Display-Bold',
+  900: 'Red-Hat-Display-Black',
 );
 
 @each $weight, $file in $fonts-red-hat-display {

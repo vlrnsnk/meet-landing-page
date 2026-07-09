@@ -1,0 +1,32 @@
+@use '../abstracts' as *;
+
+.hero {
+  padding: var(--spacing-800) var(--spacing-400) var(--spacing-800);
+
+  &__media {
+    margin-inline: calc(var(--spacing-400) * -1 - 1.8125rem);
+  }
+
+  &__image {
+    margin-block-end: 3rem;
+  }
+
+  &__title {
+    text-align: center;
+    margin-block-end: 1.5rem;
+    padding-inline: 0.625rem;
+    color: var(--color-slate-900);
+
+    @include text-preset-2;
+  }
+
+  &__description {
+    @include text-preset-5;
+
+    font-weight: 500;
+    text-align: center;
+    color: var(--color-slate-600);
+    margin-inline: auto;
+    margin-block-end: 1.5rem;
+  }
+}
