@@ -7,4 +7,37 @@
   &__step-marker {
     margin: var(--spacing-1000) auto var(--spacing-800);
   }
+
+  &__gallery {
+    margin-block-end: var(--spacing-800);
+  }
+
+  &__subtitle {
+    @include text-preset-3;
+
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-cyan-600);
+    margin-block-end: var(--spacing-200);
+  }
+
+  &__title {
+    @include text-preset-2;
+
+    font-size: 2rem;
+    text-align: center;
+    color: var(--color-slate-900);
+    margin-block-end: var(--spacing-400);
+  }
+
+  &__description {
+    @include text-preset-5;
+
+    font-weight: 500;
+    text-align: center;
+    color: var(--color-slate-600);
+    margin-inline: auto;
+    margin-block-end: var(--spacing-800);
+  }
 }
