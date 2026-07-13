@@ -1,0 +1,10 @@
+@use '../abstracts' as *;
+
+.features {
+  padding: var(--spacing-400);
+  padding-block-end: var(--spacing-800);
+
+  &__step-marker {
+    margin: var(--spacing-1000) auto var(--spacing-800);
+  }
+}

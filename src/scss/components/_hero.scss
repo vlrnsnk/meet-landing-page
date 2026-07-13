@@ -1,7 +1,8 @@
 @use '../abstracts' as *;
 
 .hero {
-  padding: var(--spacing-800) var(--spacing-400) var(--spacing-800);
+  padding: var(--spacing-400);
+  padding-block-start: var(--spacing-800);
 
   &__media {
     margin-inline: calc(var(--spacing-400) * -1 - 1.8125rem);
