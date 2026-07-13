@@ -3,6 +3,7 @@
 .hero {
   padding: var(--spacing-400);
   padding-block-start: var(--spacing-800);
+  overflow: hidden;
 
   &__media {
     margin-inline: calc(var(--spacing-400) * -1 - 1.8125rem);
