@@ -3,9 +3,10 @@
 .step-marker {
   display: grid;
   position: relative;
-  width: 3.5rem;
-  height: 3.5rem;
+  width: var(--spacing-700);
+  height: var(--spacing-700);
   place-items: center;
+  background-color: var(--color-white);
   border: 1px solid var(--color-slate-300);
   border-radius: 50%;
   color: var(--color-slate-600);
