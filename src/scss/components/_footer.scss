@@ -16,7 +16,7 @@
         hsl(from var(--color-cyan-600) h s l / 90%),
         hsl(from var(--color-cyan-600) h s l / 90%)
       ),
-      url('../../assets/images/mobile/image-footer.jpg') no-repeat center/cover;
+      url('../../assets/images/tablet/image-footer.jpg') no-repeat center/cover;
     text-align: center;
     color: var(--color-white);
   }
@@ -31,5 +31,15 @@
     @include text-preset-5;
 
     font-weight: 500;
+  }
+
+  @media (width >= 48rem) {
+    &__title {
+      font-size: 2.25rem;
+    }
+
+    &__description {
+      max-width: 31.5rem;
+    }
   }
 }

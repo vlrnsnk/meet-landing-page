@@ -6,4 +6,9 @@
   &__image {
     border-radius: var(--spacing-100);
   }
+
+  @media (width >= 48rem) {
+    gap: var(--spacing-300);
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
