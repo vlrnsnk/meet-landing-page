@@ -59,4 +59,25 @@
       font-size: 2.25rem;
     }
   }
+
+  @media (width >= 90rem) {
+    padding-inline: 10rem;
+
+    &__step-marker {
+      margin-block-start: 7.625rem;
+    }
+
+    &__subtitle {
+      font-size: 1rem;
+    }
+
+    &__title {
+      font-size: 2.5rem;
+    }
+
+    &__description {
+      max-width: 34rem;
+      font-size: 1.125rem;
+    }
+  }
 }

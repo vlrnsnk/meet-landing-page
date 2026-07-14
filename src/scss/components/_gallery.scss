@@ -11,4 +11,8 @@
     gap: var(--spacing-300);
     grid-template-columns: repeat(4, 1fr);
   }
+
+  @media (width >= 90rem) {
+    gap: var(--spacing-400);
+  }
 }
