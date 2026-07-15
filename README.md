@@ -114,15 +114,19 @@ image-hero.avif
 
 Use <picture> with AVIF → WebP → original fallback:
 
-````html
+```html
 <picture>
   <source srcset="image.avif" type="image/avif" />
   <source srcset="image.webp" type="image/webp" />
   <img src="image.png" alt="" />
 </picture>
+```
 
-### Development ```bash npm run dev
-````
+### Development
+
+```bash
+npm run dev
+```
 
 ### Build
 
@@ -165,7 +169,9 @@ Accessibility score was reduced due to insufficient color contrast in the provid
 
 ## Continued Development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- Continue improving accessibility practices, especially color contrast and semantic HTML.
+- Further optimize performance workflows, including image formats and loading strategies.
+- Keep refining scalable SCSS architecture and reusable component patterns.
 
 ## Useful Resources
 
