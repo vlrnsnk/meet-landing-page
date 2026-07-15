@@ -27,10 +27,31 @@
     <main class="page__content">
       <section class="hero">
         <div class="hero__media hero__media--mobile">
-          <img class="hero__image" src="/src/assets/images/tablet/image-hero.png" alt="" />
+          <picture>
+            <source srcset="/src/assets/images/tablet/image-hero.avif" type="image/avif" />
+            <source srcset="/src/assets/images/tablet/image-hero.webp" type="image/webp" />
+            <img
+              class="hero__image"
+              src="/src/assets/images/tablet/image-hero.png"
+              width="820"
+              height="303"
+              alt=""
+              fetchpriority="high"
+            />
+          </picture>
         </div>
         <div class="hero__media hero__media--left">
-          <img class="hero__image" src="/src/assets/images/desktop/image-hero-left.png" alt="" />
+          <picture>
+            <source srcset="/src/assets/images/desktop/image-hero-left.avif" type="image/avif" />
+            <source srcset="/src/assets/images/desktop/image-hero-left.webp" type="image/webp" />
+            <img
+              class="hero__image"
+              src="/src/assets/images/desktop/image-hero-left.png"
+              width="394"
+              height="303"
+              alt=""
+            />
+          </picture>
         </div>
         <div class="hero__wrapper">
           <h1 class="hero__title">Group Chat for Everyone</h1>
@@ -46,39 +67,97 @@
           </div>
         </div>
         <div class="hero__media hero__media--right">
-          <img class="hero__image" src="/src/assets/images/desktop/image-hero-right.png" alt="" />
+          <picture>
+            <source srcset="/src/assets/images/desktop/image-hero-right.avif" type="image/avif" />
+            <source srcset="/src/assets/images/desktop/image-hero-right.webp" type="image/webp" />
+            <img
+              class="hero__image"
+              src="/src/assets/images/desktop/image-hero-right.png"
+              width="394"
+              height="303"
+              alt=""
+            />
+          </picture>
         </div>
       </section>
       <section class="features">
         <div class="features__step-marker step-marker" aria-hidden="true">01</div>
         <ul class="features__gallery gallery">
           <li class="gallery__item">
-            <img
-              class="gallery__image"
-              src="/src/assets/images/desktop/image-woman-in-videocall.jpg"
-              alt="Woman smiling during a video call on a laptop"
-            />
+            <picture>
+              <source
+                srcset="/src/assets/images/desktop/image-woman-in-videocall.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="/src/assets/images/desktop/image-woman-in-videocall.webp"
+                type="image/webp"
+              />
+              <img
+                class="gallery__image"
+                src="/src/assets/images/desktop/image-woman-in-videocall.jpg"
+                width="510"
+                height="484"
+                alt="Woman smiling during a video call on a laptop"
+              />
+            </picture>
           </li>
           <li class="gallery__item">
-            <img
-              class="gallery__image"
-              src="/src/assets/images/desktop/image-women-videochatting.jpg"
-              alt="Three women having a video chat on a smartphone"
-            />
+            <picture>
+              <source
+                srcset="/src/assets/images/desktop/image-women-videochatting.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="/src/assets/images/desktop/image-women-videochatting.webp"
+                type="image/webp"
+              />
+              <img
+                class="gallery__image"
+                src="/src/assets/images/desktop/image-women-videochatting.jpg"
+                width="510"
+                height="484"
+                alt="Three women having a video chat on a smartphone"
+              />
+            </picture>
           </li>
           <li class="gallery__item">
-            <img
-              class="gallery__image"
-              src="/src/assets/images/desktop/image-men-in-meeting.jpg"
-              alt="Man in a meeting looking at a screen"
-            />
+            <picture>
+              <source
+                srcset="/src/assets/images/desktop/image-men-in-meeting.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="/src/assets/images/desktop/image-men-in-meeting.webp"
+                type="image/webp"
+              />
+              <img
+                class="gallery__image"
+                src="/src/assets/images/desktop/image-men-in-meeting.jpg"
+                width="510"
+                height="484"
+                alt="Man in a meeting looking at a screen"
+              />
+            </picture>
           </li>
           <li class="gallery__item">
-            <img
-              class="gallery__image"
-              src="/src/assets/images/desktop/image-man-texting.jpg"
-              alt="Man smiling while texting on his phone"
-            />
+            <picture>
+              <source
+                srcset="/src/assets/images/desktop/image-man-texting.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="/src/assets/images/desktop/image-man-texting.webp"
+                type="image/webp"
+              />
+              <img
+                class="gallery__image"
+                src="/src/assets/images/desktop/image-man-texting.jpg"
+                width="510"
+                height="484"
+                alt="Man smiling while texting on his phone"
+              />
+            </picture>
           </li>
         </ul>
         <p class="features__subtitle">Built for modern use</p>

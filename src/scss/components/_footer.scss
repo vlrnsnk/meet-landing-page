@@ -1,7 +1,11 @@
 @use '../abstracts' as *;
 
 .footer {
-  --footer-image: url('../../assets/images/tablet/image-footer.jpg');
+  --footer-image: image-set(
+    url('../../assets/images/tablet/image-footer.avif') type('image/avif'),
+    url('../../assets/images/tablet/image-footer.webp') type('image/webp'),
+    url('../../assets/images/tablet/image-footer.jpg') type('image/jpeg')
+  );
 
   &__step-marker {
     margin: var(--spacing-200) auto calc(var(--spacing-700) * -1 / 2);
@@ -51,7 +55,11 @@
     }
 
     &__wrapper {
-      --footer-image: url('../../assets/images/desktop/image-footer.jpg');
+      --footer-image: image-set(
+        url('../../assets/images/desktop/image-footer.avif') type('image/avif'),
+        url('../../assets/images/desktop/image-footer.webp') type('image/webp'),
+        url('../../assets/images/desktop/image-footer.jpg') type('image/jpeg')
+      );
 
       padding: var(--spacing-1400) 10rem;
       flex-direction: row;
