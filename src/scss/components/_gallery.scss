@@ -12,7 +12,7 @@
     grid-template-columns: repeat(4, 1fr);
   }
 
-  @media (width >= 90rem) {
+  @media (width >= 80rem) {
     gap: var(--spacing-400);
   }
 }
