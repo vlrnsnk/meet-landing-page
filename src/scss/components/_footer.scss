@@ -1,6 +1,8 @@
 @use '../abstracts' as *;
 
 .footer {
+  --footer-image: url('../../assets/images/tablet/image-footer.jpg');
+
   &__step-marker {
     margin: var(--spacing-200) auto calc(var(--spacing-700) * -1 / 2);
   }
@@ -16,7 +18,7 @@
         hsl(from var(--color-cyan-600) h s l / 90%),
         hsl(from var(--color-cyan-600) h s l / 90%)
       ),
-      url('../../assets/images/tablet/image-footer.jpg') no-repeat center/cover;
+      var(--footer-image) no-repeat top/cover;
     text-align: center;
     color: var(--color-white);
   }
@@ -49,6 +51,8 @@
     }
 
     &__wrapper {
+      --footer-image: url('../../assets/images/desktop/image-footer.jpg');
+
       padding: var(--spacing-1400) 10rem;
       flex-direction: row;
       align-items: flex-start;
