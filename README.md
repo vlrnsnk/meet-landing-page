@@ -3,12 +3,6 @@
 This is a solution to the [Meet landing page on Frontend Mentor](https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR).
 Frontend Mentor challenges help improve frontend skills by building realistic UI components.
 
-## 🚀 Using this template
-
-### 12. Add preview images
-
-Upload `./preview.png` (894xHEIGHT size) and create `public/og-image.png` (1200x630) after the project is ready for ease of sharing.
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -63,6 +57,7 @@ Users should be able to:
 - Modular SCSS architecture using `@use`
 - CSS custom properties for design tokens
 - Stylelint configuration with property ordering
+- Automated image optimization pipeline with Sharp (WebP + AVIF generation)
 - Optimized production build with Vite
 - Automated deployment to GitHub Pages via GitHub Actions
 
@@ -76,15 +71,16 @@ Users should be able to:
 - Flexbox / Grid
 - Mobile-first workflow
 - Vite
+- Sharp image processing
 - Stylelint (code quality + property ordering)
 - HTML validation
 - Husky (pre-commit hooks)
 
 ### What I learned
 
-- {{LEARNING_1}}
-- {{LEARNING_2}}
-- {{LEARNING_3}}
+- Improved responsive layout techniques using a mobile-first workflow and CSS Grid/Flexbox.
+- Built a modular SCSS architecture using `@use`, design tokens, and reusable components.
+- Implemented an image optimization workflow using Sharp to generate WebP and AVIF formats.
 
 ## Setup
 
@@ -94,11 +90,39 @@ Users should be able to:
 npm install
 ```
 
-### Development
+### Image optimization
+
+Generate modern image formats:
 
 ```bash
-npm run dev
+npm run images
 ```
+
+This creates .webp and .avif versions of images inside:
+
+```bash
+src/assets/images/
+```
+
+Example:
+
+```bash
+image-hero.png
+image-hero.webp
+image-hero.avif
+```
+
+Use <picture> with AVIF → WebP → original fallback:
+
+````html
+<picture>
+  <source srcset="image.avif" type="image/avif" />
+  <source srcset="image.webp" type="image/webp" />
+  <img src="image.png" alt="" />
+</picture>
+
+### Development ```bash npm run dev
+````
 
 ### Build
 
@@ -130,12 +154,14 @@ Project is built with Vite and deployed to GitHub Pages using GitHub Actions.
 
 ## Performance
 
-Lighthouse score (example):
+Lighthouse score:
 
-- Performance: {{PERF_SCORE}}
-- Accessibility: {{ACCESSIBILITY_SCORE}}
-- Best Practices: {{BEST_PRACTICES_SCORE}}
-- SEO: {{SEO_SCORE}}
+- Performance: 100
+- Accessibility: 93
+- Best Practices: 100
+- SEO: 100
+
+Accessibility score was reduced due to insufficient color contrast in the provided design palette.
 
 ## Continued Development
 
@@ -143,16 +169,15 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Useful Resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN Web Docs](https://developer.mozilla.org/) - Used as a reference for modern HTML, CSS, and accessibility best practices.
+- [web.dev](https://web.dev/) - Used for Lighthouse performance optimization guidance.
 
 ## AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+Used AI tools throughout the development process:
 
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
+- Gemini, ChatGPT, and Claude Code for debugging, code review, optimization ideas, and improving development workflow.
+- AI was especially useful for troubleshooting build issues, refining SCSS architecture, and reviewing accessibility/performance improvements.
 
 ## Author
 
